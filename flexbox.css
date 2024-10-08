@@ -1,0 +1,89 @@
+/**----HEADER----**/
+
+header{
+    justify-content: center;
+    align-items: center;
+}
+
+/**----MAIN----**/
+.alura-geek{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: ;
+}
+/* main  */
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Auto layout */
+.mis__productos{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: flex-start;
+padding: 60px 40px;
+gap: 70px;
+
+width: 100%;
+height: auto;    
+}
+
+.mis__productos{
+    border-radius: 10px;
+}
+
+.products-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Inside auto layout */
+
+.mis__productos div{
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.titulo__principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*AGREGAR PRODUCTO*/
+
+.add-product-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario_contenido{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bote img{
+    width: 5%;
+    height: auto;
+}
+
+.botones{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}

@@ -1,0 +1,8 @@
+{
+    "products": [
+      { "id": 1, "name": "Leche Soprole", "price": 1250 },
+      { "id": 2, "name": "Mermelada de Mango", "price": 2500 }
+    ]
+  }
+  
+  
